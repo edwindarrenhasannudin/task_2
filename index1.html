@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Formulir Pendaftaran</h1>
-    <form action="detail.html" method="POST">
+    <form action="index2.html" method="post">
         <label for="nama">Nama:</label><br>
         <input type="text" id="nama" name="nama"><br><br>
 
@@ -18,6 +18,22 @@
         <label for="telepon">No. Telepon:</label><br>
         <input type="text" id="telepon" name="telepon"><br><br>
 
+        <label for="birthdate">Tanggal Lahir:</label><br>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+    
+        <label for="domisili">Domisili:</label><br>
+        <select id="domisili" name="domisili">
+            <option value="jakarta">Jakarta</option>
+            <option value="bandung">Bandung</option>
+            <option value="lampung">Lampung</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="yogyakarta">Yogyakarta</option>
+            <option value="lainnya">Lainnya</option>
+        </select><br><br>
+
+        <label for="catatan">Catatan:</label><br>
+        <textarea id="catatan" name="catatan" rows="4" cols="50"></textarea><br><br>
+    
         <input type="submit" value="Daftar">
     </form>
 </body>
